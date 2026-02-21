@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Virtual env
+.venv/
+venv/
+
+# Build / notebooks
+.ipynb_checkpoints/
+
+# Large training artifacts and generated outputs
+artifacts/
+outputs/
+
+# Optional local cache
+.cache/
